@@ -134,7 +134,6 @@ namespace Gini {
                 $dir .= '/';
             }
             self::$_base = $scheme . '://' . $host . $dir;
-
             self::$_rurl = \Gini\Core::moduleInfo(APP_ID)->rurl ?: ['*' => 'assets'];
         }
 
